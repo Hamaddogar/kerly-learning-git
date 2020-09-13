@@ -1,0 +1,49 @@
+#main{
+
+    display: inline-flex;
+    padding-left: 100px;
+}
+#div1{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+animation: 10s linear rotatediv;
+}
+
+#div2{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+animation: 10s linear rotatediv;
+  
+  }
+  #div3{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+  margin: 20px;
+animation: 10s linear rotatediv;
+
+
+  
+  }
+
+
+
+   @keyframes rotatediv{
+
+    0%{transform: rotate(90deg);}
+    25%{transform: rotate(120deg);}
+    50%{transform: rotate(200deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+
+   
+    /* from{ background-color: brown; width: 600px;}
+    to{background-color: chartreuse; width: 1200px;}
+       */
+
+
+   }
